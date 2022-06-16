@@ -1,0 +1,13 @@
+//OBJECT
+
+const person = {
+    name: 'jhon',
+    age: 30,
+    weight: 88.6,
+    isAdmin: true
+}
+
+
+como exibir na tela as informações acima:
+
+console.log(´${person.name} tem ${age} anos´)

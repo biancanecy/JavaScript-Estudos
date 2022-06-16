@@ -1,0 +1,59 @@
+#Variáveis: nomes simbolicos para receber algum valor
+
+são como um espaço em um armário para armazenar objetos
+
+armário-> memoria do computador
+espaço na memória-> variável
+objetos armazenados-> tipos de dados
+
+
+
+-var: 
+*podem variar totalmente o conteudo
+*global, e pode funcionar fora de um escolpo de bloco
+*tudo que está dentro da tag script é global
+
+-let(escolpo local): pode alterar o  tipo da variável dependendo do conteudo:
+let clima = true // boolean
+clima = "" // String
+
+-const (escolpo local): não se pode atribuir outro valor
+
+
+hoising: é uma habilitação automática que o js faz por trás para encaixar os conceitos
+
+
+
+var name // declaração de variável
+name "mike" // atribuir um valor ou assignment
+
+console.log(typeof name)
+//tipo de dado colocado na variável
+
+
+--> variavel tipo let
+
+let age = 20
+let isHuman = true 
+
+
+--> declarações conjuntas ou agrupamento:
+
+let age, isHuman
+
+age = 18 
+isHuman = true
+
+console.log(name, age, isHuman)
+
+
+
+ESCRITA DE TEXTO + VARIÁVEIS:
+
+
+concatenando valores:
+console.log('o' +name+ 'tem' +age+ 'anos')
+
+Interpolando valores com template strings: usa-se "${variavel} para colocar ela direto no exibir sem por entre strings
+
+console.log ('o ${name} tem ${age} anos)

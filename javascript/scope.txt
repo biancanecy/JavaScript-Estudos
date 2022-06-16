@@ -1,0 +1,11 @@
+#SCOPE
+
+* escopo determina a visibilidade de alguma variável no JS
+
+
+#BLOCK STATEMENT: declaração de bloco
+{
+    
+    qualquer conteudo pode ser colocado dentro do bloco
+
+}

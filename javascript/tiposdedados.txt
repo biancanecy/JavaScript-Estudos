@@ -1,0 +1,91 @@
+
+
+TIPOS PRIMITIVOS:
+
+-Tipo String: cadeia de caracteres
+
+""// aspas duplas
+
+''// aspas simples
+
+´´// template strings (crase) permite multilinhas e valores (´1+1´)
+
+
+-Tipo Number: (numeros)
+
+33// inteiros
+12.5// float (reais)
+NaN// not a Number
+infinity// infinito
+
+-Tipo bolean: boleano
+
+-somente 2 valores 
+true or false// verdadeiro ou falso
+
+console.log(true)
+console.log(false)
+
+
+
+-Tipo undefined:
+ dado que não existe
+
+
+-Tipo null: primitivo estrutural
+dado que exite porém não abriga nada dentro
+
+
+
+
+
+TIPOS ESTRUTURAIS: recebem propriedades, valores e funcionalidades
+
+-OBJECT: tipo de dado estrutural
+*objeto
+*propriedades/atributos
+*funcionalidades/métodos
+
+{propriedade: *valor*}
+
+console.log({ //objeto//
+
+    //propriedade ->
+    name: bianca <-valor
+    idade: 20
+    ->funcionalidade//andar: function(){
+        console.log('andar') // uma função para 
+    }
+})
+
+Tipo array estrutural: (vetores)
+    *lista
+    *agrupamento de dados 
+
+["bianca", 20]
+
+console.log([
+    "bianca", 
+    20
+    
+    ])
+
+const animals = {
+    'lion',
+    'monkey',
+    'cat'
+
+}
+
+//como acessar os valores acima dentro do array// a lista começa a partir do 0
+
+console.log(animals[0]) // somente o lion vai aparecer pois le está na posição ''0''
+
+como saber a posição de cada elemento da lista:
+
+console.log(animals.[0])
+console.log(animals.[1])
+console.log(animals.[2])
+
+caso colocar outro numero que não existe dentro do parentese a posição será indefinida
+
