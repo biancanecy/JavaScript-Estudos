@@ -1,1 +1,0 @@
-Console.log("insira o texto aqui") //usado para imprimir um texto no F12//
