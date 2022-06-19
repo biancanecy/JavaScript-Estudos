@@ -4,7 +4,7 @@
 
 //declaração de função:
 
-function createPhrases(){
+function createPhrases(){ //primeiro criar a função
 
     console.log('Estudar é bom')
     console.log('tenha mais paciência')
@@ -14,6 +14,10 @@ function createPhrases(){
 
 //como executar, rodar ou chamar a função:
 
-createPhrases()
-console.log('fim do programa')
+createPhrases() //chamar a função para executa-la
+console.log('fim do programa') //linha de codigo aleatória
 
+
+createPhrases()
+createPhrases()
+createPhrases()//pode-se repetir quantas vezes for necessário
