@@ -8,8 +8,14 @@
 
 //transformando letras minusculas em maiusculas e vice versa:
 
-let word = 'adoro programar'
-console.log(word.toUpperCase()) //tranformar em letra maiuscula o conteudo de word
+//let word = 'adoro programar'
+//console.log(word.toUpperCase()) //tranformar em letra maiuscula o conteudo de word
 
-let world = 'adoro programar'
-console.log(word.toLowerCase()) //tranformar em letra maiuscula o conteudo de world
+//let world = 'adoro programar'
+//console.log(word.toLowerCase()) //tranformar em letra maiuscula o conteudo de world
+
+
+//Verificar se uma palavra existe no texto:
+
+/* let phrase = 'eu gosto de viver'
+console.log(phrase.includes('Amor')) */
