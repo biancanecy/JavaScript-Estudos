@@ -35,3 +35,13 @@ console.log(myArray) */
 
 let myArray = new Array(10)
 console.log(myArray) */
+
+console.log([
+    'a',
+    {type:'array'},
+    function(){return'alo'},
+    1
+
+
+
+].length)
