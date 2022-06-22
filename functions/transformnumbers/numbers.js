@@ -36,7 +36,7 @@ console.log(myArray) */
 let myArray = new Array(10)
 console.log(myArray) */
 
-console.log([
+/* console.log([
     'a',
     {type:'array'},
     function(){return'alo'},
@@ -44,4 +44,4 @@ console.log([
 
 
 
-].length)
+].length) */ //para saber quantos elementos existem dentro de um Array
