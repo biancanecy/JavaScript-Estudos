@@ -19,3 +19,19 @@
 
 /* let phrase = 'eu gosto de viver'
 console.log(phrase.includes('Amor')) */
+
+
+/*separando e juntando strings
+
+let phrase = 'eu amo estudar'
+let myArray = phrase.split("_")
+let phraseWithUnderscore= myArray.join('_')
+console.log(myArray) */
+
+
+/*CRIANDO ARRAY COM CONSTRUTOR
+
+
+
+let myArray = new Array(10)
+console.log(myArray) */
