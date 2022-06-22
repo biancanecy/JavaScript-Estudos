@@ -45,3 +45,12 @@ console.log(myArray) */
 
 
 ].length) */ //para saber quantos elementos existem dentro de um Array
+
+
+/* transformando strings em elementos de um array
+
+let word = "manipulação"
+console.log(Array.from(word))  */
+
+
+
