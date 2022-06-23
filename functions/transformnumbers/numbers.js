@@ -58,6 +58,33 @@ console.log(Array.from(word))  */
 
 //new
 
-let name = new String('bia')
+/* let name = new String('bia')
 let age = new Number(20)
-console.log(name,age,)
+console.log(name,age,) */
+
+/*ADIÇÃO:
+
+let x = 1
+x += 2 
+console.log(x) */
+
+
+/*SUBTRAÇÃO
+let x = 1
+x-= 4
+console.log(x)
+*/
+
+
+/*MULTIPLICAÇÃO
+let x = 1
+x *= 2
+console.log(x)
+*/
+
+
+/*DIVISÃO
+let x = 1
+x /= 2
+console.log(x)
+*/
