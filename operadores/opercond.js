@@ -18,3 +18,6 @@ const cafebom = pao || queijo ? 'café bom' : 'café ruim'
 console.log(cafebom) */
 
 
+/* let age = 16
+const canDrive = age >= 18 ? 'can drive' : "can't drive"
+console.log(canDrive) */
