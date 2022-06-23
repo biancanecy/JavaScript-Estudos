@@ -52,5 +52,12 @@ console.log(myArray) */
 let word = "manipulação"
 console.log(Array.from(word))  */
 
+/* adicionando no fim do array: */
 
+/* expressoes e operadores*/
 
+//new
+
+let name = new String('bia')
+let age = new Number(20)
+console.log(name,age,)
