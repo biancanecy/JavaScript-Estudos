@@ -1,7 +1,7 @@
 
-    let temperatura = 37
+    let temperatura = 
     let febre = temperatura >= 37.5
-    let febreMod = temperatura < 37.5 && temperatura >= 37
+    let febreMod = temperatura >= 37.5 && temperatura >= 37
 
 
 
