@@ -28,7 +28,7 @@
 
     //FOR OF: CAPTURAR UM CARACTERE DE UMA STRING, OU UM ELEMENTO DE UM ARRAY
 
-    let name = 'bia' //string
+  /*  let name = 'bia' //string
     let names = ['joao', 'pedro','lucas'] //array
 
     for(let char of name){
@@ -39,4 +39,18 @@
     for (let name of names){
         console.log(name)
 
+    } */
+
+    //FOR IN: PEGAR PROPRIEDADES DE UM OBJETO:
+
+    let person ={ //criação de um objeto
+        name : 'Bia',
+        age : 20,
+        peso : 37,
+    }
+
+    for(let propriedades in person){
+        console.log(propriedades)
+        console.log(person[propriedades]) //acessar por ordem de lista do objeto
+       
     }
